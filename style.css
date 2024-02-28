@@ -2,16 +2,20 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
+  background-image: linear-gradient(to bottom, darkorchid 70%, black 70%); 
+  min-height: 100vh; 
 }
 
 h1 {
   text-align: center;
-  color: #333;
+  color: white; /* Make the text white for better visibility */
   margin-bottom: 20px;
 }
 
 p {
   font-size: 16px;
   line-height: 1.5;
+  color: lightgray; /* Use a lighter color for better contrast */
 }
+
 
