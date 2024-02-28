@@ -6,7 +6,7 @@ body {
   min-height: 100vh; 
 }
 
-h1 {
+h1, h3 {
   text-align: center;
   color: white; /* Make the text white for better visibility */
   margin-bottom: 20px;
