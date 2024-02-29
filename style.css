@@ -1,9 +1,11 @@
+/* Global Styles */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
-  background-image: linear-gradient(to bottom, darkorchid 70%, black 70%); 
-  min-height: 100vh; 
+  background-image: linear-gradient(to bottom, rebeccapurple 40%, black 70%);
+  min-height: 100vh;
 }
 
 h1, h3 {
@@ -13,9 +15,52 @@ h1, h3 {
 }
 
 p {
-  font-size: 16px;
-  line-height: 1.5;
-  color: lightgray; /* Use a lighter color for better contrast */
+  color: white;
+}
+
+.intro-link {
+  color: yellowgreen;
+}
+
+ul {
+  /* Remove default list styling */
+  list-style: none;
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+li {
+  /* Set color to white smoke */
+  color: whitesmoke;
+  /* Use block display for full-width links */
+  display: block;
+  /* Add padding for spacing */
+  padding: 8px;
+  /* Remove float, not needed for vertical layout */
+  float: none; /* This is not required for vertical navigation */
+  /* Add border-bottom for visual separation between items */
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2); /* White border with 20% opacity */
+}
+
+a {
+  /* Inherit color from parent (li) */
+  color: inherit;
+  /* Remove default text decoration */
+  text-decoration: none;
+  /* Style as needed (hover effects, etc.) */
 }
 
 
+.container {
+  display: flex; /* Activate flexbox layout */
+  justify-content: space-between; /* Space between containers */
+  padding-right: 400px;
+  color: white;
+}
+
+.left-container, 
+.right-container {
+  width: 50%; /* Each container takes up 50% of the parent width */
+  /* Add more styles as needed (background color, padding, etc.) */
+  background-color: darkmagenta;
+}
